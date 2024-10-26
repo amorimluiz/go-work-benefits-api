@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/amorimluiz/work_benefits_api/internal/routes"
+	"github.com/amorimluiz/work_benefits_api/api/server/routes"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )
