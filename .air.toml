@@ -5,3 +5,5 @@ tmp_dir = "tmp"
 [build]
 cmd = "go build -o ./tmp/main.exe ./cmd/workbenefitsapi/main.go"
 bin = "./tmp/main.exe"
+poll = true
+poll_interval = 500
