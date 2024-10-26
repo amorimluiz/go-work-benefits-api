@@ -19,5 +19,9 @@ func main() {
 
 	routes.SetRoutes(server)
 
-	server.Run(":" + os.Getenv("APP_PORT"))
+	err = server.Run(":" + os.Getenv("APP_PORT"))
+
+	if err != nil {
+		panic(err)
+	}
 }
